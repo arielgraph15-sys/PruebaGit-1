@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test';
-
+kmjkm
 /*test('Iniciar sesion con datos validos', async ({ page }) =>{
 
     //Navegar a la pagina de login
@@ -76,3 +76,4 @@ test('Validar que el sistema NO permite iniciar sesión cuando el campo password
 
 
     });
+
