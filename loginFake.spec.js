@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test';
-kmjkm
-/*test('Iniciar sesion con datos validos', async ({ page }) =>{
+
+test('Iniciar sesion con datos validos', async ({ page }) =>{
 
     //Navegar a la pagina de login
     await page.goto('https://www.saucedemo.com/');
@@ -19,9 +19,9 @@ kmjkm
 
 
 
-});*/
+});
 
-/*test('Validar usuario con password invalido', async ({ page }) =>{
+test('Validar usuario con password invalido', async ({ page }) =>{
 
     //Ingresar a la pagina de Saucedemon
     await page.goto('https://www.saucedemo.com/');
@@ -38,9 +38,9 @@ kmjkm
     //Verificar resultado esperado
     await expect(page).not.toHaveURL(/inventory.html/);
 
-});*/
+});
 
-/*test('Validar que el sistema NO permite iniciar sesión cuando el campo usuario está vacio',
+test('Validar que el sistema NO permite iniciar sesión cuando el campo usuario está vacio',
      async ({ page }) =>{
 
         //Ingresar a la pagina de Saucedemon
@@ -57,7 +57,7 @@ kmjkm
     // Validar mensaje de error
     await expect(page.locator('[data-test="error"]')).toBeVisible();
 
-});*/
+});
 
 test('Validar que el sistema NO permite iniciar sesión cuando el campo password está vacío', 
     async({ page }) =>{
@@ -76,4 +76,3 @@ test('Validar que el sistema NO permite iniciar sesión cuando el campo password
 
 
     });
-
